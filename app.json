@@ -12,6 +12,14 @@
     "STORMPATH_API_KEY_SECRET": {
       "description": "The API key secret from tyou ~/.stormpath/apiKey.properties file",
       "value": "changeme"
+    },
+    "STORMPATH_APPLICATION_HREF": {
+      "description": "The fully qualified URL to your Stormpath Application from the admin console",
+      "value": "changeme"
+    },
+    "STORMPATH_BASEURL": {
+      "description": "The base url, including the version, from the STORMPATH_APPLICATION_HREF. Ordinarily, you will not need to changed the default",
+      "value": "https://api.stormapth.com/v1"
     }
   }
 }
