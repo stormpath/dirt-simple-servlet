@@ -26,7 +26,7 @@
     <packaging>war</packaging>
 
     <properties>
-        <stormpath.version>1.0.RC8.5</stormpath.version>
+        <stormpath.version>1.0.2</stormpath.version>
     </properties>
 
     <dependencies>

@@ -56,7 +56,8 @@ public class WelcomeController extends HttpServlet {
         } else {
             // logged in
             sb.append("<p><h4>Welcome, " + acc.getFullName() + "!</h4></p>");
-            sb.append("<p><h4>Click <a href=\"/logout\">here</a> to log out.</h4></p>");
+            sb.append("<p><h4><form method=\"post\" action=\"/logout\">");
+            sb.append("<input type=\"submit\" value=\"Logout\"></form></h4></p>");
         }
 
         sb.append("</body></html>");
